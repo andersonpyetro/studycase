@@ -39,33 +39,29 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
+    title: "Funcionalidades",
     url: "#features",
   },
   {
     id: "1",
-    title: "Pricing",
+    title: "Preços",
     url: "#pricing",
   },
   {
     id: "2",
-    title: "How to use",
+    title: "Como usar",
     url: "#how-to-use",
   },
-  {
-    id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
-  },
+ 
   {
     id: "4",
-    title: "New account",
+    title: "Criar Conta",
     url: "#signup",
     onlyMobile: true,
   },
   {
     id: "5",
-    title: "Sign in",
+    title: "Entrar",
     url: "#login",
     onlyMobile: true,
   },
@@ -78,9 +74,9 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Chat em tempo real",
+  "Dicas de otimização do negócio",
+  "Geração de gráficos inteligentes",
 ];
 
 export const brainwaveServicesIcons = [
@@ -128,21 +124,21 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "O nosso aplicativo oferece segurança de ponta para você integrar vários programas, inclusive bancários, sem a preocupação de ter seus dados roubados.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "Integração Completa",
     text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Automação Inteligente",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Segurança em primeiro lugar",
   },
 ];
 
@@ -208,35 +204,40 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
+    title: "Basico",
     description: "AI chatbot, personalized recommendations",
-    price: "0",
+    price: "69,90",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "3 usuários",
+      "60 MB de dados",
+      "Emissão de Notas Fiscais",
+      "Sincronização de estoque",
+      "Atualização automática de pedidos de venda"    
     ],
   },
   {
     id: "1",
     title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    description: "O melhor custo benefício para o seu negócio",
+    price: "89.90",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "10 usuários",
+      "120MB de dados",
+      "3 GB de arquivos",
+      "Integração com MarketPlaces",
+      "Emissão de Notas Fiscais",
+      "Inteligência Artificial ativa para ajudar com a otimização do seu comércio",
     ],
   },
   {
     id: "2",
     title: "Enterprise",
     description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
+    price: "129.90",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Todos os recursos dos outros planos",
+      "Suporte personalizado",
+      "Acesso a uma consultoria por mês com especialista em Growth Marketing",
     ],
   },
 ];
@@ -244,16 +245,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Chat Ao vivo",
+    text: "Atenda aos seus clientes diretamente no nosso Chat ao vivo. Ofereça suporte personalizado, link de venda e muito mais.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Gestão Eficiente",
+    text: "Nosso aplicativo oferece tudo o que você precisa para otimizar as suas vendas: gráfico comparativo, sugestão de otimização de preço e controle eficiente de estoque.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,16 +262,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Marketing Eficiente",
+    text: "No Mercado Mestre você consegue conectar suas contas de anúncios do Google e Facebook para um controle eficiente nas suas campanhas de publicidade online. ",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Notas Fiscais",
+    text: "Gere suas notas fiscais com praticidade. Mais facilidade para manter a saúde fiscal do seu negócio em dia.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -278,16 +279,16 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Suporte da IA",
+    text: "Temos uma Inteligêcia artificial plugada no seu aplicativo pronta para lhe fornecer dicas importantes para o crescimento do seu negócio.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Controle de estoque",
+    text: "Com a nossa ferramenta de cadastro, fazer a gestão inteligente do seu estoque ficou ainda mais fácil.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
